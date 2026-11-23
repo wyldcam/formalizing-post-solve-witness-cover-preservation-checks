@@ -1,0 +1,12 @@
+Copyright (c) 2026 Cameron Budd (NullStateParityLabs, Western Australia).
+All Rights Reserved.
+
+LIMITED VERIFICATION & BENCHMARK AUDIT LICENSE:
+Permission is granted solely to download and execute `verify_witnesses.py` and
+inspect the accompanying `.sol` NP witness certificates and `witness_manifest.json`
+for independent mathematical and benchmark verification.
+
+No rights, licenses, or permissions (express, implied, or by estoppel) are granted
+to any underlying solver software, binary SDKs, CUDA kernels, C++ architectures,
+patents, or trade secrets of NullStateParityLabs. Commercial licensing and OEM SDK
+inquiries must be directed to the copyright holder.

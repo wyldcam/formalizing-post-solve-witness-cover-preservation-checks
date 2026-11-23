@@ -1,0 +1,80 @@
+[
+  {
+    "instance": "Conflict_5k",
+    "n": 5000,
+    "edges": 50080,
+    "seed": 42,
+    "p_edge": 0.004,
+    "gpu": "NVIDIA L4",
+    "gpu_weight": 379110,
+    "gpu_ms": 100.49,
+    "fastwvc1_weight": 381132,
+    "fastwvc8_weight": 382363,
+    "sha256": "536d375da8cdb62ee618a06c03c502b7394be4201df34bfdefa4dec84250643c"
+  },
+  {
+    "instance": "Conflict_10k",
+    "n": 10000,
+    "edges": 99845,
+    "seed": 42,
+    "p_edge": 0.002,
+    "gpu": "NVIDIA L4",
+    "gpu_weight": 754018,
+    "gpu_ms": 101.55,
+    "fastwvc1_weight": 771631,
+    "fastwvc8_weight": 768607,
+    "sha256": "7f6ee38914d48ef1e265f5924649de5fafccb31ee238a3afea74f340f68c1a2c"
+  },
+  {
+    "instance": "Scale_25k",
+    "n": 25000,
+    "edges": 124598,
+    "seed": 123,
+    "p_edge": 0.0004,
+    "gpu": "NVIDIA L4",
+    "gpu_weight": 1615765,
+    "gpu_ms": 203.21,
+    "fastwvc1_weight": 1655616,
+    "fastwvc8_weight": 1648624,
+    "sha256": "d7e09068df71133fdf604def88892b51ed7448a41f6031341a9aa598351b1be1"
+  },
+  {
+    "instance": "Scale_50k",
+    "n": 50000,
+    "edges": 249308,
+    "seed": 123,
+    "p_edge": 0.0002,
+    "gpu": "NVIDIA L4",
+    "gpu_weight": 3244691,
+    "gpu_ms": 258.0,
+    "fastwvc1_weight": 3300622,
+    "fastwvc8_weight": 3285779,
+    "sha256": "de004d4500570c2e745b12d60e1c03fa2a8fa402256d99c1636eaf2f8ab923a7"
+  },
+  {
+    "instance": "Scale_100k",
+    "n": 100000,
+    "edges": 499424,
+    "seed": 123,
+    "p_edge": 0.0001,
+    "gpu": "NVIDIA L4",
+    "gpu_weight": 6551419,
+    "gpu_ms": 418.7,
+    "fastwvc1_weight": 6613020,
+    "fastwvc8_weight": 6574869,
+    "sha256": "3d597d34e0d5ea6cc2d45aa8d7fe4ab5a6ef09e0e800e1b8fb40c88da9394c26"
+  },
+  {
+    "instance": "Scale_130k",
+    "n": 130000,
+    "edges": 648827,
+    "seed": 123,
+    "p_edge": 7.692307692307693e-05,
+    "gpu": "NVIDIA L4",
+    "gpu_weight": 8509178,
+    "gpu_ms": 526.54,
+    "fastwvc1_weight": 8610624,
+    "fastwvc8_weight": 8542822,
+    "sha256": "cf0358f9d13a6ed5c4698f334c0089b839ec2acc677fd77b643d3e68d9f744dd"
+  }
+]
