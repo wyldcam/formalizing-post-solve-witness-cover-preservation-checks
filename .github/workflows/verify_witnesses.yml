@@ -1,0 +1,33 @@
+name: Verify 13 NP Witness Certificates
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Pure-Stdlib Witness Audit (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Checkout witness archive
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python 3.12 (Zero pip installs)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cryptographically & mathematically verify all 13 witnesses
+        run: python verify_witnesses.py
